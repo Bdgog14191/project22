@@ -1,0 +1,50 @@
+.grid{
+grid-template-columns: 500px 500px 500px ;
+grid-template-rows: 400px 400px 300px ;
+display: grid;
+grid-gap: 10px ;
+
+
+}
+html {
+background-color: #ccffff;
+}
+.box {
+}
+.item1{
+border: white solid 5px;
+background-image: url("https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_waterpollution_66615937_2400.jpg?itok=l7kar9Ev");
+color: white ;
+}
+
+
+.item2{
+border: white solid 5px;
+background-image: url("https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/08165419/Environmental-pollution-1024x678.jpg");
+color: white ;
+}
+
+
+
+.item3{
+border: white solid 5px;
+background-image: url("https://wce.wwu.edu/files/resize/ESJ%20Wordle%20Image-770x424.jpg") ;
+color: white ;
+}
+
+.item4{
+border: white solid 5px;
+background-image: url("https://1.bp.blogspot.com/-mznu2b8UYw0/V_6MXE_6QnI/AAAAAAAABtw/rcqGdzAoxpoBkzhV2xvqmWLSPkdS40NTACLcB/s1600/power-plant-2-112408-500x335.jpg") ;
+color: white ;
+}
+
+.item5{
+border: white solid 5px;
+background-image: url("https://www.citationmachine.net/wp-content/uploads/2019/07/CM-825x350-Reference_List_Works_Cited_Bibliography.jpg");
+grid-column-start:2;
+}
+ 
+
+a:visited {
+	color:white;
+}
